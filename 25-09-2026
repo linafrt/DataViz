@@ -4,7 +4,7 @@ Problématique:
 Où habiter pour avoir le plus de vélos Vélib’ disponibles à proximité, en fonction de ses préférences de type de vélo ?
 
 Pour répondre à cette problématique, nous avons réalisé deux visualisations complémentaires à partir des données open data de Vélib’. La première permet d’avoir une vision géographique de la disponibilité des vélos, tandis que la seconde permet d’analyser plus précisément le nombre et le type de vélos disponibles dans les stations identifiées.
-![photo](carte_velib.png)
+!(carte_velib.png)
 Premier graphique : la carte des cinq stations les plus disponibles
 La première visualisation est une carte représentant les cinq stations ayant le plus de vélos disponibles.
 Cette représentation permet tout d’abord d’avoir une vision géographique des données. Chaque rond correspond à une station et plus le rond est grand, plus le nombre de vélos disponibles dans cette station est important.
