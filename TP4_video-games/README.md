@@ -13,7 +13,8 @@ Installer les dépendances avec `pip install -r requirements.txt`, puis lancer `
 
 Les différentes formes d'un Pokémon sont conservées : une ligne représente une forme et non forcément une espèce unique. Les statistiques manquantes ne sont pas inventées.
 
-Outils : Python, pandas, Plotly, Streamlit. Données : `pokedex.csv`.
+Outils : Python, pandas, Plotly, Streamlit. 
+Données : `pokedex.csv`.
 
 ## Aperçu du dashboard
 
