@@ -1,0 +1,32 @@
+POKEMETRICS - Tableau de bord interactif
+Projet individuel - Theme : Jeux video - Rendu : 23 octobre 2026
+
+Le professeur accepte Power BI, Streamlit & Python ou R Shiny.
+Cette livraison utilise STREAMLIT & PYTHON (et non Power BI).
+
+CONTENU
+- app.py : code du dashboard
+- pokedex.csv : base originale
+- requirements.txt : dependances
+- LANCER_DASHBOARD.bat : lancement Windows
+
+POUR LANCER SUR WINDOWS
+1. Installer Python depuis python.org si necessaire.
+2. Extraire le ZIP dans un dossier.
+3. Double-cliquer sur LANCER_DASHBOARD.bat.
+4. L'installation initiale des bibliotheques necessite Internet.
+5. Le navigateur ouvre normalement http://localhost:8501.
+
+AUTRE METHODE
+Dans un terminal ouvert dans ce dossier :
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
+
+IMPORTANT POUR LE RENDU
+Ce projet est une application locale. Si le professeur veut un lien public,
+il faut la deployer sur Streamlit Community Cloud, avec app.py,
+pokedex.csv et requirements.txt dans un depot GitHub.
+
+Les graphiques couvrent : variables numeriques et categorielles,
+comparaisons de moyennes, effectifs, proportions, distribution,
+nuage de points, filtres interactifs, exploration des donnees.
