@@ -2,13 +2,10 @@
 
 Projet individuel sur les jeux vidéo. J'ai choisi d'explorer les statistiques des Pokémon : les types, les générations et les profils de combat.
 
-**Question :** Quels profils de Pokémon se distinguent selon les types et les générations ?
+**Problématique :** Quels profils de Pokémon se distinguent selon les types et les générations ?
 
 L'application permet de filtrer les générations, les types et les statuts, de comparer les moyennes et les distributions, puis de confronter deux Pokémon dans un face-à-face.
 
-## Capture du tableau de bord
-
-![Capture du dashboard](dashboard.png)
 
 ## Lancement
 
