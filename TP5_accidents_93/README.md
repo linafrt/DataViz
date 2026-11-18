@@ -31,7 +31,7 @@ Référence : [GoldenViz — Lisibilité](https://goldenviz.org/fr/readability.h
 
 ### 1. Répartition géographique
 
-**[Ouvrir la carte interactive](carte_accidents_93.html)**.
+**[Ouvrir la carte interactive](carte_accidents_93.html)**
 
 ![Aperçu de la localisation des accidents](images/carte_apercu.png)
 
@@ -53,11 +53,6 @@ Source du contour : [France GeoJSON — Seine-Saint-Denis](https://github.com/gr
 | Crépuscule / aube | 152 | 5.8 % |
 | Nuit avec éclairage éteint | 27 | 1.0 % |
 
-### Interprétation
-
-La majorité des accidents enregistrés surviennent **en plein jour**. Parmi les accidents de nuit, ceux avec éclairage public allumé sont les plus nombreux. Cela ne signifie pas que le plein jour ou l'éclairage allumé provoquent davantage d'accidents : il faudrait connaître le trafic, la durée d'exposition et les lieux pour comparer les risques.
-
-La carte montre les localisations enregistrées ; les zones avec beaucoup de points peuvent correspondre à des axes plus fréquentés. Il faut éviter d'interpréter directement le nombre de points comme un taux de dangerosité.
 
 ### Choix graphiques et règles appliquées
 
@@ -68,5 +63,23 @@ La carte montre les localisations enregistrées ; les zones avec beaucoup de poi
 - **12** : tri décroissant des catégories.
 - **13** : transparence des points sur la carte interactive.
 
+
+### Choix graphiques et règles de lisibilité appliquées
+
+Pour rendre les visualisations plus simples à comprendre, j'ai appliqué plusieurs règles de lisibilité étudiées dans le support GoldenViz :
+
+- **Règle 7 – Étiquettes lisibles** : j'ai utilisé des noms de catégories horizontaux pour faciliter la lecture du graphique en barres.
+
+- **Règle 8 – Couleurs** : j'ai choisi une couleur unique pour les barres et des couleurs distinctes pour représenter les conditions de luminosité sur la carte.
+
+- **Règle 9 – Étiquetage direct** : j'ai affiché les valeurs directement à côté des barres pour éviter de devoir les estimer à partir de l'axe.
+
+- **Règles 10 et 16 – Simplicité** : j'ai supprimé les éléments décoratifs inutiles afin de mettre en avant les informations importantes.
+
+- **Règle 12 – Tri des catégories** : les conditions de luminosité sont classées par nombre décroissant d'accidents pour faciliter leur comparaison.
+
+- **Règle 13 – Superposition des points** : j'ai utilisé des points semi-transparents sur la carte pour limiter leur superposition et mieux visualiser les concentrations d'accidents.
+
+Ces choix permettent de rendre les deux visualisations plus claires et de faciliter la comparaison des résultats.
 
 **Limites :** la base décrit des accidents corporels enregistrés, pas l'ensemble des collisions ni le volume de circulation. L'étude est descriptive et limitée à 2024 et au département 93.
