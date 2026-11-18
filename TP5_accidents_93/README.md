@@ -64,8 +64,5 @@ La carte montre les localisations enregistrées ; les zones avec beaucoup de poi
 - **12** : tri décroissant des catégories.
 - **13** : transparence des points sur la carte interactive.
 
-## Reproduire le travail
-
-Installer les dépendances avec `pip install -r requirements.txt`, puis exécuter `python analyse.py` depuis ce dossier. Le script utilise aussi `contour_93.py` pour tracer le département et les repères urbains. Il lit `accidents_93_2024.csv` et régénère les images et la carte HTML.
 
 **Limites :** la base décrit des accidents corporels enregistrés, pas l'ensemble des collisions ni le volume de circulation. L'étude est descriptive et limitée à 2024 et au département 93.
