@@ -1,6 +1,6 @@
 # Accidents corporels en Seine-Saint-Denis (2024)
 
-**Projet de DataViz — analyse des accidents corporels de la circulation dans le département 93.**
+**Projet de DataViz — Analyse des accidents corporels de la circulation en Seine-Saint-Denis.**
 
 ## Objectif et données
 
@@ -31,11 +31,15 @@ Référence : [GoldenViz — Lisibilité](https://goldenviz.org/fr/readability.h
 
 ### 1. Répartition géographique
 
-**[Ouvrir la carte interactive](carte_accidents_93.html)** (télécharger le fichier HTML si GitHub ne l'affiche pas directement).
+**[Ouvrir la carte interactive](carte_accidents_93.html)**.
 
 ![Aperçu de la localisation des accidents](images/carte_apercu.png)
 
-La carte HTML est **autonome et consultable hors connexion** : elle utilise des coordonnées GPS (longitude et latitude) avec un contour administratif simplifié intégré au fichier. Elle permet de zoomer, de survoler les accidents pour afficher leur date, leur heure et leur luminosité, et de masquer certaines catégories dans la légende. Les points sont semi-transparents pour limiter la surimpression. Le contour départemental est **simplifié** à partir de points du GeoJSON IGN et les noms de villes sont des **repères approximatifs** (non utilisés pour calculer les résultats). Aucun fond de rues n’est nécessaire. Source du contour : [France GeoJSON — Seine-Saint-Denis](https://github.com/gregoiredavid/france-geojson/blob/master/departements/93-seine-saint-denis/departement-93-seine-saint-denis.geojson) (IGN, édition 2018).
+La carte interactive représente les accidents corporels enregistrés en Seine-Saint-Denis en 2024 à partir de leurs coordonnées GPS. Elle permet de zoomer, d'obtenir des informations sur chaque accident et de filtrer les résultats selon les conditions de luminosité.
+
+Pour faciliter la lecture, les points sont légèrement transparents afin de limiter leur superposition. Le contour du département est simplifié et les villes servent uniquement de repères géographiques.
+
+Source du contour : [France GeoJSON — Seine-Saint-Denis](https://github.com/gregoiredavid/france-geojson/blob/master/departements/93-seine-saint-denis/departement-93-seine-saint-denis.geojson).
 
 ### 2. Conditions de luminosité
 
