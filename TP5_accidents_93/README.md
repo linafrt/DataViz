@@ -45,7 +45,7 @@ Source du contour : [France GeoJSON — Seine-Saint-Denis](https://github.com/gr
 
 ![Accidents par luminosité](images/luminosite.png)
 
-| Conditions de luminosité | Accidents | Part |
+| Conditions de luminosité | Accidents | Part (%) |
 |---|---:|---:|
 | Plein jour | 1 701 | 64.4 % |
 | Nuit avec éclairage allumé | 545 | 20.6 % |
@@ -54,21 +54,20 @@ Source du contour : [France GeoJSON — Seine-Saint-Denis](https://github.com/gr
 | Nuit avec éclairage éteint | 27 | 1.0 % |
 
 
-### Choix graphiques et règles appliquées
+### Interprétation des résultats
 
-- **7** : noms de catégories lisibles sans rotation.
-- **8** : couleur unique et contraste suffisant.
-- **9** : valeurs écrites directement à côté des barres.
-- **10 et 16** : suppression des effets décoratifs et des informations secondaires.
-- **12** : tri décroissant des catégories.
-- **13** : transparence des points sur la carte interactive.
+En 2024, 2 640 accidents corporels ont été enregistrés en Seine-Saint-Denis. Parmi eux, 1 701 accidents (64,4 %) se sont produits en plein jour. Les accidents de nuit avec éclairage public allumé arrivent ensuite avec 545 cas (20,6 %).
+
+Cependant, cela ne signifie pas que conduire de jour est plus dangereux. Il faudrait connaître le volume de circulation selon les horaires pour pouvoir comparer les risques.
+
+La carte permet de visualiser la répartition géographique des accidents dans le département. On remarque que certains secteurs concentrent davantage de points, notamment le long de plusieurs axes routiers. Ces concentrations peuvent être liées à une circulation plus importante, mais les données ne permettent pas de l'affirmer.
 
 
 ### Choix graphiques et règles de lisibilité appliquées
 
 Pour rendre les visualisations plus simples à comprendre, j'ai appliqué plusieurs règles de lisibilité étudiées dans le support GoldenViz :
 
-- **Règle 7 – Étiquettes lisibles** : j'ai utilisé des noms de catégories horizontaux pour faciliter la lecture du graphique en barres.
+- **Règle 7 – Étiquettes lisibles** : j'ai utilisé des libellés de catégories horizontaux pour faciliter la lecture du graphique en barres.
 
 - **Règle 8 – Couleurs** : j'ai choisi une couleur unique pour les barres et des couleurs distinctes pour représenter les conditions de luminosité sur la carte.
 
@@ -81,5 +80,6 @@ Pour rendre les visualisations plus simples à comprendre, j'ai appliqué plusie
 - **Règle 13 – Superposition des points** : j'ai utilisé des points semi-transparents sur la carte pour limiter leur superposition et mieux visualiser les concentrations d'accidents.
 
 Ces choix permettent de rendre les deux visualisations plus claires et de faciliter la comparaison des résultats.
+
 
 **Limites :** la base décrit des accidents corporels enregistrés, pas l'ensemble des collisions ni le volume de circulation. L'étude est descriptive et limitée à 2024 et au département 93.
